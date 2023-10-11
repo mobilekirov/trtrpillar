@@ -32,9 +32,9 @@ WEB_SERVER_PORT = 80
 # Path to webhook route
 WEBHOOK_PATH = '/webhook'
 # Secret key to validate requests from Telegram
-WEBHOOK_SECRET = 'cat3pillar'
+WEBHOOK_SECRET = 'cat3pillar7'
 # Base URL for webhook will be used to generate webhook URL for Telegram
-BASE_WEBHOOK_URL = 'https://one-mobilekirob.amvera.io'
+BASE_WEBHOOK_URL = 'https://one-d0ce.onrender.com'
 
 PARTS_WEBSITE_URL = 'https://offroadeq.com/parts-search/{}/'
 # EXCHANGE_RATE = 101.0
