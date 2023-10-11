@@ -102,7 +102,7 @@ async def params_edit(message: Message) -> None:
         msg += 'Значения переменных\n'
         for p in params.keys():
             msg += f'Параметр: {hcode(p)} Значение: {hbold(params[p])}\n'
-        msg += '\n Для изменения значений переменных, введите комманду, указанную ниже\n{hcode("!@#W")} [параметр] [значение]\nНапример:\n{hcode("!@#W")} EXCHANGE_RATE 108.30'
+        msg += f'\n Для изменения значений переменных, введите комманду, указанную ниже\n{hcode("!@#W")} [параметр] [значение]\nНапример:\n{hcode("!@#W")} EXCHANGE_RATE 108.30'
     if cmd.lower().startswith('!@#W'.lower()):
         # Writing params into json file
         try:
