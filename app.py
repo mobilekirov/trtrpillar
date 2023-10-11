@@ -27,7 +27,7 @@ TOKEN = '6423151141:AAGlh-YWeeHnGVZcwqZVid7vAs-5z7-hTOo'
 # Webserver settings
 WEB_SERVER_HOST = '0.0.0.0'
 # Port for incoming requests
-WEB_SERVER_PORT = 80
+WEB_SERVER_PORT = 443
 
 # Path to webhook route
 WEBHOOK_PATH = '/webhook'
