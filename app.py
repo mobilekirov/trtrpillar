@@ -50,7 +50,7 @@ PARTS_WEBSITE_URL = 'https://offroadeq.com/parts-search/{}/'
 PARAMS_VALUES_FILE = 'data/config.json'
 
 router = Router()
-router.message.middleware(AntiFloodMiddleware())
+# router.message.middleware(AntiFloodMiddleware())
 
 
 def get_price(sku: str) -> tuple[int, str, str]:
